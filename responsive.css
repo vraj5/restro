@@ -1,0 +1,281 @@
+@media (max-width: 1342px) {
+  .container {
+    padding-left: 130px;
+    padding-right: 130px;
+  }
+}
+@media (max-width: 1200px) {
+  .container {
+    padding-left: 108px;
+    padding-right: 108px;
+  }
+  header .header-menu {
+    display: flex;
+    justify-content: end;
+  }
+  header .header-menu ul {
+    padding: 0;
+  }
+  header .header-menu ul li a {
+    margin: 10px 5px;
+  }
+}
+@media (max-width: 1024px) {
+  .container {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  header .header-menu {
+    display: flex;
+    justify-content: end;
+  }
+  header .header-menu ul {
+    padding: 0;
+  }
+  header .header-menu ul li a {
+    margin: 10px 5px;
+  }
+  .master-chef .row {
+    display: flex;
+    justify-content: start;
+  }
+  .specials .row .col-4 .specials-img {
+    margin: 0;
+  }
+  .menu .plate .plate-3 {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  header .header-menu {
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 0 2px 13px rgba(60, 72, 88, 0.2);
+    width: 80%;
+    top: 18%;
+    left: 8%;
+    visibility: visible;
+    display: block;
+  }
+  header .header-menu ul {
+    padding: 0;
+  }
+  header .header-menu ul li {
+    display: none;
+  }
+  header .menubar-parent a {
+    display: inline-block;
+    margin: 25px 5px;
+  }
+  header .menubar-parent a .menu-btn {
+    display: block;
+  }
+  .banner .col-6 {
+    width: 100%;
+  }
+  .banner .banner-img .image {
+    padding: 20%;
+  }
+  .banner .banner-img .sub-image {
+    padding: 15%;
+  }
+  .features .col-4 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .master-chef .row {
+    display: flex;
+    justify-content: center;
+  }
+  .master-chef .col-5 {
+    width: 80%;
+  }
+  .master-chef .chef-img {
+    padding: 100px;
+  }
+  .master-chef .food {
+    display: none;
+  }
+  .menu .row .col-6 {
+    width: 100%;
+  }
+  .specials .row .col-4 {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .specials .row .col-4 .specials-img {
+    width: 280px;
+    height: 280px;
+    margin: 0 auto;
+  }
+  .gallery .row .col-4 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .app .container .row {
+    padding: 80px 60px;
+  }
+  .app .container .row .col-6 {
+    width: 100%;
+  }
+  .app .container .row .col-5 {
+    width: 100%;
+  }
+  .app .container .row .col-5 .app-image {
+    position: relative;
+    top: 0;
+  }
+  .app .container .row .col-5 .app-image img {
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .blogs .row .col-4 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  footer .row .col-2 {
+    width: 50%;
+    margin-bottom: 40px;
+  }
+  footer .row .col-2 .logo {
+    margin: 0 auto;
+  }
+  footer .row .col-3 {
+    width: 50%;
+    margin-bottom: 40px;
+  }
+  footer .row .col-4 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  .footer-end .row .col-6 {
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+  }
+  .footer-end .row .col-6 .options {
+    padding: 0;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .sub-title h6 {
+    padding: 7px 20px;
+  }
+  .sub-title h4 {
+    font-size: 30px;
+  }
+  .banner .banner-data h1 {
+    line-height: 40px;
+    font-size: 32px;
+  }
+  .banner .banner-img .image {
+    padding: 12%;
+  }
+  .banner .banner-img .sub-image {
+    padding: 6%;
+  }
+  .banner .banner-data-bottom p {
+    font-size: 12px;
+    line-height: 35px;
+  }
+  .gallery .row .col-4 .gallery-image {
+    padding: 0 10px;
+  }
+  .app .container .row {
+    padding: 60px 40px;
+  }
+  footer .row .col-2 {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  footer .row .col-2 .logo {
+    margin: 0;
+  }
+  footer .row .col-3 {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  footer .row .col-3 .location {
+    display: flex;
+    justify-content: start;
+  }
+  footer .row .col-3 .email {
+    display: flex;
+    justify-content: start;
+  }
+  footer .row .col-4 {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .banner .banner-data .banner-data-bottom .cstm-btn {
+    margin-right: 20px;
+  }
+  .banner .banner-data .banner-data-bottom p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .master-chef .row .chef-img {
+    padding: 0;
+  }
+  .master-chef .row .chef-data h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  .master-chef .row .chef-data h5 {
+    font-size: 18px;
+  }
+  .master-chef .row .chef-data p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .menu .navbar {
+    padding: 0;
+  }
+  .menu .navbar li a {
+    font-size: 15px;
+    margin: 0;
+  }
+  .menu .navbar li a::after {
+    display: none;
+  }
+  .menu .plate .plate-2 {
+    right: 10px;
+  }
+  .gallery {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .gallery .row .col-4 {
+    padding: 0;
+  }
+  .gallery .row .col-4 .gallery-image {
+    padding: 0;
+  }
+  .app .container .row {
+    padding: 40px 20px;
+  }
+  .blogs .row .col-4 .blog-content .blog-title a {
+    font-size: 16px;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */
